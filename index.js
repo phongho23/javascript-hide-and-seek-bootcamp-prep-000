@@ -15,12 +15,14 @@ for (var i = 0; i < lis.length; i++) {
 }
 
 function deepestChild(){
- const divGrand = document.querySelector('div');
-  
-return document.getElementById("grand-node").getElementsByTagName('div')[3]
+ var divGrand = document.getElementById("grand-node").getElementsByTagName('div');
+ 
+return divGrand[3];
+
   
   
 }
 
+//return document.getElementById("grand-node").getElementsByTagName('div')[3]
 
 //Define a function deepestChild() that pulls out the most deeply nested child from div#grand-node. (Remember, you can iterate over elements and call querySelector() and querySelectorAll() on them. This is challenging to implement correctly, but not beyond your ability!)
