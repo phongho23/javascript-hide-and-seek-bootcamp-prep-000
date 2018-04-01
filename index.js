@@ -17,7 +17,7 @@ for (var i = 0; i < lis.length; i++) {
 function deepestChild(){
  const divGrand = document.querySelector('div');
   
-return document.getElementsByID(grand)[3];
+return document.getElementById("grand-node").getElementsByTagName('div')[3]
   
   
 }
