@@ -17,7 +17,7 @@ for (var i = 0; i < lis.length; i++) {
 function deepestChild(){
  var divGrand = document.getElementById("grand-node").getElementsByTagName('div');
  
- for (i = 0; ; i++)
+return divGrand[divGrand.length - 1];
 
 
   
